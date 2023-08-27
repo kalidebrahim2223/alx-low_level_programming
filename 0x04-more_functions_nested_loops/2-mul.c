@@ -1,22 +1,16 @@
 #include "main.h"
 
 /**
- *_isdigit - determine whether digts
- *@c: the value
- *Return: 0 or 1
+ * mul - multiply two numbers
+ * @a: num1
+ * @b: num2
+ * Return: number
  */
 
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	int r;
+	int sum;
 
-	if (c >= 'a' && c <= 'z')
-	{
-		x = 0;
-	}
-	else
-	{
-		x = 1;
-	}
-	return (r);
+	sum = a * b;
+	return (sum);
 }
