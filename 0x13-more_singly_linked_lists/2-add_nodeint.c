@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- **add_nodeint- insert new element in first row
+ *add_nodeint- insert new element in first row
  *@head :pointer to the head
  *@n: intiger
  */
