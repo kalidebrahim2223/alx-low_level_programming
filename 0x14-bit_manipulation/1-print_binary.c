@@ -22,10 +22,11 @@ void print_binary(unsigned long int n)
 	{
 		c >>= 1;
 		j = c & n;
-		if ( j == 0)
+		if (j == 0)
 		{
 			_putchar('0');
-		}else
+		}
+		else
 		{
 			_putchar('1');
 		}
